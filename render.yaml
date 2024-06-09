@@ -1,0 +1,9 @@
+services:
+- type: web
+  name: my-web-app
+  runtime: static
+  buildCommand: npm run build
+  staticPublishPath: build
+  rootDir: my-web-app
+
+version: "1"
