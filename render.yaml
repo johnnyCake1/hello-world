@@ -1,3 +1,5 @@
+previewsEnabled: true
+previewsExpireAfterDays: 1
 services:
 - type: web
   name: my-web-app
@@ -7,4 +9,4 @@ services:
   rootDir: my-web-app
   pullRequestPreviewsEnabled: true
 
-version: "2"
+version: "3"
