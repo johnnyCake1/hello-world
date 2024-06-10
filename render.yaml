@@ -6,3 +6,9 @@ services:
   staticPublishPath: build
   rootDir: my-web-app
   pullRequestPreviewsEnabled: true
+- type: web
+  name: react-app
+  runtime: static
+  buildCommand: npm run build
+  staticPublishPath: build
+  rootDir: react-app
