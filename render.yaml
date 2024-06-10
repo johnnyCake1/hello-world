@@ -1,4 +1,3 @@
-previewsEnabled: true
 services:
 - type: web
   name: my-web-app
@@ -13,3 +12,5 @@ services:
   buildCommand: npm run build
   staticPublishPath: build
   rootDir: react-app
+  pullRequestPreviewsEnabled: true
+
