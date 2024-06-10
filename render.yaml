@@ -1,3 +1,5 @@
+previewsEnabled: true
+previewsExpireAfterDays: 1
 services:
 - type: web
   name: my-web-app
@@ -5,7 +7,6 @@ services:
   buildCommand: npm run build
   staticPublishPath: build
   rootDir: my-web-app
-  pullRequestPreviewsEnabled: true
 - type: web
   name: react-app
   runtime: static
