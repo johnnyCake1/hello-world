@@ -13,4 +13,5 @@ services:
   buildCommand: npm run build
   staticPublishPath: build
   rootDir: react-app
+  pullRequestPreviewsEnabled: true
 
